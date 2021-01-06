@@ -58,3 +58,21 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
+function mdl1(){ 
+  $(document).ready(function(){
+      $("#myModalx").modal('show');
+  });}
+
+
+
+function mdl2(){ 
+  $(document).ready(function(){
+      $("#myModal2x").modal('show');
+  });}
+  
+  
+
+function mdl3(){ 
+  $(document).ready(function(){
+      $("#myModal3x").modal('show');
+  });}

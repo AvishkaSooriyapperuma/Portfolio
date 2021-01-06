@@ -12,33 +12,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="../js/portfolio.js"></script>
     <link rel="stylesheet" href="../css/portfolio.css" type="text/css">
-
+    <link rel="stylesheet" href="../css/ground.css">
+    
 </head>
 <body>
  
   <div class="img-fluid " id="parallax">
   <nav class="navbar navbar-expand-lg  navbar-dark bg-dark bg-transparent">
-    <a class="navbar-brand pp" href="#" style="font-family: 'Courier New', Courier, monospace;">Avishka Sooriyapperuma</a>
+    <a class="navbar-brand pp" href="../html/portfolio.html" style="font-family: 'Courier New', Courier, monospace;">Avishka Sooriyapperuma</a>
     <button class="navbar-toggler navbar-expand-sm" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#" id="cont">Home </a>
+          <a class="nav-link" href="../html/portfolio.html" id="cont">Home </a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#abt" id="cont">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#" id="cont">Experience</a>
+          <a class="nav-link active" href="#exp" id="cont">Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#cntc" id="cont">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#" id="cont">Projects</a>
-        </li>
+      
         <li class="nav-item">
           <a class="nav-link active" href="#" id="cont">Resume</a>
         </li>
@@ -46,19 +45,20 @@
     
     </div>
   </nav>
+  <center><h2><br><br><br><br>
+    <span
+       class="txt-rotate"
+       data-period="2000"
+       data-rotate='[ " Hey!I am Avishka Sooriyapperuma.","Welcome to my portfolio site!" ]' style="text-align: center;" ></span>
+  </h2>
+  </center>
+  
 <!--End Nav Bar-->
 
 
   
 </div>
 <!--Start body-->
-<center><h2>
-  <span
-     class="txt-rotate"
-     data-period="2000"
-     data-rotate='[ " Hey!I am Avishka.","Welcome to my portfolio site!" ]'></span>
-</h2>
-</center>
 
 
    <center> 
@@ -79,9 +79,12 @@
         </a>
 
         <a  href="mailto:avishkadilshan400@gmail.com">
-        <img src="../images/email.png" alt="Avishka Sooriyapperuma's email" id="logo" >
+        <img src="../images/mail.png" alt="Avishka Sooriyapperuma's email" id="logo" >
         </a>
 
+        <a  href="https://www.facebook.com/avishka.dilshan.9615">
+          <img src="../images/fb.png" alt="Avishka Sooriyapperuma's Facebook profile" id="logo2" width="45" height="45">
+        </a>
        
 
      </div>
@@ -114,30 +117,157 @@
   <br>
 </div>
 <div class="img-fluid mt-3 " id="parallax1">
-  <h1 style="text-transform: uppercase;" class="mx-auto text-center">Experience</h1>
+  <h1 style="text-transform: uppercase;" class="mx-auto text-center" id="exp">Experience</h1>
 </div><br>
+<div class="container">
 <div class="row">
+  <!--card1 start-->
   <div class="col-12 col-md-4 col-lg-4">
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class=" img-fluid img">  
+       <center><button class="btn textb mx-auto bg-transparent" style="text-transform: uppercase; margin-top: 120px; font-size: larger;" onclick="mdl1();"> Work & Volunteer <br> Experience </button> </center> 
       </div>
-    </div>
+    
+      </div>
   </div>
+  <!--card end-->
+  <!--card1-->
+  <div class="col-12 col-md-4 col-lg-4">
+    <div class="card1" style="width: 18rem;">
+      <div class=" img-fluid img">  
+       <center> <button class="btn textb mx-auto bg-transparent" style="text-transform: uppercase; margin-top: 120px; font-size: larger;" onclick="mdl2();"> Skills </button> </center>
+      </div>
+    
+      </div>
+  </div><!--card1 end-->
+  <!--card2-->
+  <div class="col-12 col-md-4 col-lg-4">
+    <div class="card2" style="width: 18rem;">
+      <div class=" img-fluid img">  
+        <center><button class="btn textb mx-auto bg-transparent" style="text-transform: uppercase; margin-top: 120px; font-size: larger;" onclick="mdl3();"> extra curricular <br> Activities </button></center> 
+            
+      </div>
+      
+    
+      </div>
+  </div><!--card1 end-->
+</div> <br>
+
 </div><br>
+
+<div class="container mx-auto">
+  <div id="myModalx" class="modal fade" tabindex="-1">
+    
+        <div class="modal-dialog modal-dialog">
+          <div class="modal-content" style="border-radius: 15px; background-color: white;">
+              <div class="modal-header">
+              <center><b><h2 class="prptcol" style="text-transform: uppercase;">Work&Volunteer Experience</h2></b></center>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+             <img class="card-img-top" src="../images/work&volexp.jpg" style="border-radius: 8px;"
+             alt="Card image cap">
+            
+            <ul><br>
+              <li>Volunteered at SFD'20</li>
+              <li>Member of Foss NSBM</li>
+              <li>Member of IEEE</li>
+              <li>Contributer - Google Crowd Source</li>
+              
+
+            </ul>
+             
+             </div>
+             
+          </div>
+      </div>
+  </div>
+</div>
+<!--second modal-->
+<div class="container mx-auto">
+  <div id="myModal2x" class="modal fade" tabindex="-1">
+    
+        <div class="modal-dialog modal-dialog">
+          <div class="modal-content" style="border-radius: 15px; background-color: white;">
+              <div class="modal-header">
+              <center><b><h2 class="prptcol text-center" style="text-transform: uppercase; ">Skills</h2></b></center>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+            
+             
+            
+            <ul>
+           <li>HTML:5</li>
+           <li>CSS</li>
+           <li>JavaScript</li>
+           <li>Bootstrap</li>
+           <li>PHP/MYSQL</li>
+           <li>Phython language</li>
+           <li>C Language</li>
+           <li>Java Language</li>
+           <li>Illustrator</li>
+           <li>GitHub</li>
+
+
+
+            </ul>
+             
+             </div>
+             
+          </div>
+      </div>
+  </div>
+</div>
+<!--3rd modal-->
+<div class="container mx-auto">
+  <div id="myModal3x" class="modal fade" tabindex="-1">
+    
+        <div class="modal-dialog modal-dialog">
+          <div class="modal-content" style="border-radius: 15px; background-color: white;">
+              <div class="modal-header">
+              <center><b><h2 class="prptcol" style="text-transform: uppercase;">extra curricular Activities</h2></b></center>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+             <img class="card-img-top" src="../images/extra.jpg" style="border-radius: 8px;"
+             alt="Card image cap">
+             <div class="modal-body">
+               <ul>
+                 <li>Former Music Director at Ananda college Western Music Association</li>
+                 <li>Conducted Vivace'18 Music Show As the band leader,singer and Music Director. </li>
+                 <li>Former board member of Ananda college Science union. </li>
+                 <li>Former member of Ananda college Aeronautical Society.</li>
+                 <li>Member of Toastmasters Club</li>
+
+                 
+               </ul>
+             </div>                        
+             </div>
+             
+          </div>
+      </div>
+  </div>
+</div>
+
+
 
 <!--footer-->
 <footer class="footer container-fluid">
-<div class="row"></div>
-<div class="col-12 col-md-5 col-lg-4">
-  <div class="footer__addr">
+
+<div class="row">
+
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="footer__addr mx-auto">
     
         
     <h2 style="font-family:'ubuntu'; color: black; font-size: large; ">Contact</h2>
     
     <address style="font-family: 'ubuntu'; color: black; opacity: 0.7;">
-    136,Hettiyawaththa,Pahalamapitigama,Malwana.<br>+9471-6263292
+    136,Hettiyawaththa,Pahalamapitigama, <br> Malwana.<br>+9471-6263292
           
       <a class="footer__btn" id="cntc" href="mailto:avishkadilshan400@gmail.com">Email Me</a>
     </address>
@@ -151,7 +281,7 @@
   </div>
   <div class="col-12 col-md-6 col-lg-8 mt-5">
     
-    <center><a href="https://github.com/AvishkaSooriyapperuma">
+    <a href="https://github.com/AvishkaSooriyapperuma">
       <img src="../images/github.png" alt="Avishka Sooriyapperuma's Github Profile" id="logo">
     </a>
 
@@ -164,7 +294,7 @@
     </a>
 
     <a  href="mailto:avishkadilshan400@gmail.com">
-    <img src="../images/email.png" alt="Avishka Sooriyapperuma's email" id="logo" >
+    <img src="../images/mail.png" alt="Avishka Sooriyapperuma's email" id="logo" >
     </a>
 
     <a  href="https://www.facebook.com/avishka.dilshan.9615">
@@ -172,6 +302,6 @@
     </a>
   </div></center>
 </div>
-</footer>
+</footer><!--footer end-->
 </body>
 </html>

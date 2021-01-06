@@ -7,9 +7,15 @@ body,html{
   
   
 }
+body{
+  background-image: url("../images/bgpic.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #parallax{
       /* The image used */
-      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/me.jpg");
+      background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../images/mee.jpg");
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -17,7 +23,7 @@ body,html{
 
       /* Set a specific height */
       width:100%;
-      min-height: 760px;  
+      min-height: 500px;  
     
       
 }
@@ -75,13 +81,14 @@ h2 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 300;
   margin: 0.4em 0;
-  color: #888;
+  color: #072a40;
 }
 h2 { 
     font-size: 2.5em;
 }
 .txt-rotate{
-  margin: 20px;
+  
+  color: white;
 }
 #parallax1{
     /* The image used */
@@ -113,8 +120,10 @@ h1{
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(190, 190, 105, 0.829);
   border-top: 1px solid #e5e5e5;
+  margin: 0%;
+
   
 }
 
@@ -148,9 +157,9 @@ h1{
   justify-content: center;
   height: 36px;
   max-width: max-content;
-  background-color: rgba(92, 86, 86, 0.493);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 100px;
-  color: #2f2f2f;
+  color: #ffffff;
   line-height: 0;
   margin: 0.6em 0;
   font-size: 1rem;
@@ -160,12 +169,12 @@ h1{
 .legal {
   display: flex;
   flex-wrap: wrap;
-  color: #999;
+  color: rgb(61, 56, 56);
 }
 .footer__btn:hover{
   text-decoration: none;
-  color: black;
-  background-color: rgba(63, 59, 59, 0.493);
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.8);
 }
   
 
@@ -191,4 +200,95 @@ h1{
   .footer__nav {
     flex: 2 0px;
   }
+}
+
+.card{
+  
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/work&volexp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+
+
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+   
+}
+
+.img:hover{
+  height: 100%;
+  width: auto;
+  transition: all .8s cubic-bezier(0.175, 0.885, 0, 1);
+  position: relative;
+  overflow: hidden;
+  transform: scale(1.2, 1.2);
+  
+  
+
+}
+.textc{
+  padding-top: 130px;
+  color: #fff;
+  font-size: large;
+}
+.card1{
+  
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/reserve.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card1:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+   
+}
+.card2{
+ 
+  width: 400px;
+  height: 300px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/ec.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card2:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+   
+}
+.textb{
+  color: white;
+
+}
+.textb:hover{
+  color: white;
+  outline: none;
+}
+button {
+  border-color: #e7e7e7;
+  color: transparent;
+}
+.bNowwPop:hover{
+  background-color: #02282f;
+  border-color: #02282f ;
+}
+
+.bNowwPop{
+background-color: #178CA4;
+border-color: #178CA4;
+width: 40%;
+
+}
+.prptcol{
+  color: #02282f;
 }
